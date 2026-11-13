@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://rohitmaurya.co.in/sitemap.xml
