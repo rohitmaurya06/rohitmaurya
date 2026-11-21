@@ -79,31 +79,44 @@
         </div>
     </nav>
 
-    <main>
+    <main class="main-content  ">
         
 
          
 
         <!-- Contact -->
-        <section class="contact-strip" id="contact">
-            <div class="container">
-                <div class="contact-inner">
-                    <div>
-                        <span class="contact-eyebrow">LET'S CONNECT</span>
-                        <h2>Have a project in mind?</h2>
-                        <p>Let's create something valuable together.</p>
-                    </div>
-
-                    <a class="contact-button" href="mailto:rohitmaurya0117@gmail.com">
-                        Contact Me <i class="bi bi-arrow-up-right"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
+         
     </main>
+<div class="container contact-form">
+  <h2>Contact Me</h2>
+  <p>Feel free to reach out to me using the form below. I look forward to hearing from you!</p>
+<form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="4bdab5cf-2338-47f8-ba05-c8f7732a10eb">
+   <!-- Name input -->
+  <div data-mdb-input-init class="form-outline mb-2">
+    <input type="text" id="name" name="name" class="form-control " required/>
+    <label class="form-label" for="name">Name</label>
+  </div>
+
+  <!-- Email input -->
+  <div data-mdb-input-init class="form-outline mb-2">
+    <input type="email" id="email" name="email" class="form-control" />
+    <label class="form-label" for="email">Email address</label>
+  </div>
 
 
-    </main>
+  <!-- Message input -->
+  <div data-mdb-input-init class="form-outline mb-4">
+    <textarea class="form-control" id="message" name="message" rows="4"></textarea>
+    <label class="form-label" for="message">Message</label>
+  </div>
+
+  <!-- Submit button -->
+  <button data-mdb-button-init id="submit-form" type="submit" data-mdb-ripple-init class="btn btn-primary btn-block mb-4">
+    Send
+  </button>
+</form>
+  </div>   
 
     <!-- Footer -->
     <footer class="footer">
